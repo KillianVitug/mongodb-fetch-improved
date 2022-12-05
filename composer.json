@@ -1,0 +1,18 @@
+{
+    "name": "user/pdc10-fetchdata-mongodb-improved",
+    "autoload": {
+        "psr-4": {
+            "Control\\": ["Control/","vendor/autoload.php"]
+        }
+    },
+    "authors": [
+        {
+            "name": "KillianVitug",
+            "email": "KillianVitug@gmail.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.12",
+        "mustache/mustache": "^2.14"
+    }
+}
